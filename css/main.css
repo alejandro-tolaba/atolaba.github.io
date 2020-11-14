@@ -5,11 +5,15 @@ body{
   min-height: 100% !important;
    }
 
+main{
+  display:flex;
+  align-items: center;
+  justify-content: center;padding:50px 40px;
+}
+
 .container{
   padding:50px 40px;
   border-radius: 17px;
-  height:75%;
-  width:70%;
   box-shadow: 5px black;
 }
 
@@ -41,12 +45,10 @@ body{
 /*Texts*/
 h1{
   font-family: 'Rubik', sans-serif;
-  font-size:40px;
 }
 
 h3{
   font-family: 'Roboto', sans-serif;
-  font-size:17px; 
   font-weight:bold;
 }
 
@@ -64,6 +66,25 @@ p{
 }
 
 .cta:hover{
-  transform: scale(1.15);
+  transform: scale(1.1);
   color:white;
+  background-color: #4353FF;
+}
+
+.btn-portfolio{
+  transition: all .1s ease-in-out; 
+}
+
+.btn-portfolio:hover{
+  transform:scale(1.15);
+
+}
+
+/*Media queries*/
+
+@media (max-width: 769px){
+  .container{
+    background-color: red;
+    padding:40px 30px; 
+  }
 }
