@@ -5,7 +5,7 @@ body{
   min-height: 100% !important;
    }
 
-main{
+section{
   display:flex;
   align-items: center;
   justify-content: center;padding:50px 40px;
