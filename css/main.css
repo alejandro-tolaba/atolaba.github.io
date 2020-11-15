@@ -22,7 +22,7 @@ section{
 
 .nav-bar{
   text-align:right;
-  margin-bottom: 0px;
+  margin-bottom: 30px;
 }
 
 .header-item{
@@ -42,6 +42,7 @@ section{
 
 .col-md-6{
   padding:50px;
+  margin-left: 0px;
 }
 
 /*Texts*/
@@ -59,10 +60,20 @@ p{
   font-size:17px;
 }
 
-/*Profile pic*/
+/*Pictures*/
 .profile{
-  width=70%;
-  max-width=100%;
+  width:300px;
+  max-width:100%;
+  position:relative;
+  z-index: 2;
+}
+
+.dots{
+  width:150px;
+  position:absolute;
+  top:3px;
+  left:-30px;
+  z-index: 1;
 }
 
 /*Button*/
